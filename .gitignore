@@ -1,0 +1,6 @@
+pycache/
+*.pyc
+*.pt
+.env
+wandb/
+export WANDB_API_KEY=

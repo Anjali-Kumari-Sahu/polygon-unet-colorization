@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "E:\ayan_ml_assignment\scripts\train.py", line 105, in <module>
+    main()
+  File "E:\ayan_ml_assignment\scripts\train.py", line 38, in main
+    color_to_idx, color_names = build_color_vocab(args.train_json)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ayan_ml_assignment\scripts\train.py", line 30, in build_color_vocab
+    colors = sorted(list({entry['color'] for entry in data}))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ayan_ml_assignment\scripts\train.py", line 30, in <setcomp>
+    colors = sorted(list({entry['color'] for entry in data}))
+                          ~~~~~^^^^^^^^^
+KeyError: 'color'

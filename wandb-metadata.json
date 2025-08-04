@@ -1,0 +1,44 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.11.3",
+  "startedAt": "2025-08-03T15:51:02.290821Z",
+  "args": [
+    "--train_json",
+    "data\\training\\data.json",
+    "--val_json",
+    "data\\validation\\data.json",
+    "--train_in",
+    "data\\training\\inputs",
+    "--train_out",
+    "data\\training\\outputs",
+    "--val_in",
+    "data\\validation\\inputs",
+    "--val_out",
+    "data\\validation\\outputs",
+    "--epochs",
+    "10",
+    "--batch_size",
+    "16",
+    "--lr",
+    "1e-3"
+  ],
+  "program": "E:\\ayan_ml_assignment\\scripts\\train.py",
+  "codePath": "scripts\\train.py",
+  "codePathLocal": "scripts\\train.py",
+  "email": "rakesh.intothepro@gmail.com",
+  "root": "E:\\ayan_ml_assignment",
+  "host": "Asus",
+  "executable": "E:\\ayan_ml_assignment\\venv\\Scripts\\python.exe",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "disk": {
+    "/": {
+      "total": "128262860800",
+      "used": "85802610688"
+    }
+  },
+  "memory": {
+    "total": "16541839360"
+  },
+  "writerId": "u8hsvubbe6db9yjymfw980q7d07dm20t"
+}

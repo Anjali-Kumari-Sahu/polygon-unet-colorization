@@ -1,0 +1,82 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            yxvbw1a3a22i6j18e9ge8k4mmzyj8uyo:
+                args:
+                    - --train_json
+                    - data\dataset\training\data.json
+                    - --val_json
+                    - data\dataset\validation\data.json
+                    - --train_in
+                    - data\dataset\training\inputs
+                    - --train_out
+                    - data\dataset\training\outputs
+                    - --val_in
+                    - data\dataset\validation\inputs
+                    - --val_out
+                    - data\dataset\validation\outputs
+                    - --epochs
+                    - "10"
+                    - --batch_size
+                    - "16"
+                    - --lr
+                    - "1e-3"
+                codePath: scripts\train.py
+                codePathLocal: scripts\train.py
+                cpu_count: 6
+                cpu_count_logical: 12
+                disk:
+                    /:
+                        total: "128262860800"
+                        used: "85802635264"
+                email: rakesh.intothepro@gmail.com
+                executable: E:\ayan_ml_assignment\venv\Scripts\python.exe
+                host: Asus
+                memory:
+                    total: "16541839360"
+                os: Windows-10-10.0.26100-SP0
+                program: E:\ayan_ml_assignment\scripts\train.py
+                python: CPython 3.11.3
+                root: E:\ayan_ml_assignment
+                startedAt: "2025-08-03T15:53:56.180876Z"
+                writerId: yxvbw1a3a22i6j18e9ge8k4mmzyj8uyo
+        m: []
+        python_version: 3.11.3
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 16
+            "4": 3.11.3
+            "5": 0.21.0
+            "8":
+                - 3
+            "12": 0.21.0
+            "13": windows-amd64
+batch_size:
+    value: 16
+checkpoint_dir:
+    value: checkpoints
+epochs:
+    value: 10
+image_size:
+    value: 128
+lr:
+    value: 0.001
+train_in:
+    value: data\dataset\training\inputs
+train_json:
+    value: data\dataset\training\data.json
+train_out:
+    value: data\dataset\training\outputs
+val_in:
+    value: data\dataset\validation\inputs
+val_json:
+    value: data\dataset\validation\data.json
+val_out:
+    value: data\dataset\validation\outputs
